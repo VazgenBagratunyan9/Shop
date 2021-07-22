@@ -41,7 +41,7 @@ const App = (props) => {
                                 <Route component={ShopPage} path="/shop" />
                                 <Route component={CheckOutPage} path="/checkout" />
                                 <Route component={ContactsPage} path="/contacts" />
-                                <Redirect exact from="/" to="/home" />
+                                <Redirect exact from="/" to="/shop" />
                             </Switch>
                         </Oops>
                     </div>
